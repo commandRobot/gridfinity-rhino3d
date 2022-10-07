@@ -1,1 +1,1 @@
-# gridfinity-rhino3d
+# Gridfinity for Rhino3d
