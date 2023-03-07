@@ -8,6 +8,13 @@ By using the hops component, we are able to simplify the Grasshopper file into o
 There will be a brief run through of the use of hosp below. 
 For more information on how to use hops, go to https://developer.rhino3d.com/guides/compute/hops-component/. 
 
+What is in this repository
+1. readMe
+2. gridfinity.ghx (source GHX file with GH definitions to be referenced when using hops)
+3. gridfinity_HopsDefault.gh (template GH file to get started with using Gridfinity for Rhino3D in hops)
+![gridfinity_hopsdefault](https://user-images.githubusercontent.com/12972773/223304858-33d589df-e880-4042-8c73-37ce384867cd.jpg)
+
+
 Gridfinity for Rhino3D Run Through
 
 1. Open Rhino3D
@@ -21,7 +28,9 @@ Gridfinity for Rhino3D Run Through
 5. Pull gridfinity.ghx file into your local machine (alternatively, able to path the hops to https://github.com/commandRobot/gridfinity-rhino3d/raw/main/gridfinity.ghx , but that may not be working)
 
 6. Connect your script to a Path: 
-There are 2 ways to connect your Hops component to the source Grasshopper Hops file (insert image)
+
+There are 2 ways to connect your Hops component to the source Grasshopper Hops file 
+![girdfinity](https://user-images.githubusercontent.com/12972773/223304207-c4f69cdc-f24e-4286-aa89-7346b739d3f2.jpg)
     1. Right-Click on the Hops component & select "Path". Then, select the gridfinity.ghx file from within your local machine
     2. Right-Click on the hops component & selct "Show Input: Path". Then open a Panel (right-click or space bar in GH canvas and search "Panel") and paste the permalink to the hops (https://github.com/commandRobot/gridfinity-rhino3d/raw/main/gridfinity.ghx)
 The hop should now show the parameter inputs and output.
@@ -32,5 +41,6 @@ The hop should now show the parameter inputs and output.
 
 Permalink to the file: https://github.com/commandRobot/gridfinity-rhino3d/raw/main/gridfinity.ghx
 
+Screenshots for Reference
 ![image](https://user-images.githubusercontent.com/12972773/194511369-0ba00398-7775-4e81-bb4c-825875eab6b7.png)
 ![image](https://user-images.githubusercontent.com/12972773/194512291-a0d75fbc-f42f-40f6-b18b-3e87475e58a2.png)
