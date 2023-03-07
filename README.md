@@ -1,6 +1,6 @@
 # Gridfinity for Rhino3d
 
-Overview:
+### Overview:
 
 This repository uses the GHops component within Grasshopper in Rhino3D to generate Gridfinity (https://gridfinity.xyz/ developed by Zack Freedman) modules automatically by controlling some key parameters such as count in X, Y, total height, divider height & height of bottom surface. 
 
@@ -8,15 +8,15 @@ By using the hops component, we are able to simplify the Grasshopper file into o
 There will be a brief run through of the use of hosp below. 
 For more information on how to use hops, go to https://developer.rhino3d.com/guides/compute/hops-component/. 
 
-What is in this repository
+#### What is in this repository
 1. readMe
 2. gridfinity.ghx (source GHX file with GH definitions to be referenced when using hops)
 3. gridfinity_HopsDefault.gh (template GH file to get started with using Gridfinity for Rhino3D in hops)
 
 ![gridfinity_hopsdefault](https://user-images.githubusercontent.com/12972773/223304858-33d589df-e880-4042-8c73-37ce384867cd.jpg)
+#
 
-
-# Gridfinity for Rhino3D Run Through
+### Gridfinity for Rhino3D Run Through
 
 1. Open Rhino3D
 
@@ -42,6 +42,6 @@ The hop should now show the parameter inputs and output.
 
 Permalink to the file: https://github.com/commandRobot/gridfinity-rhino3d/raw/main/gridfinity.ghx
 
-Screenshots for Reference
+#### Screenshots for Reference
 ![image](https://user-images.githubusercontent.com/12972773/194511369-0ba00398-7775-4e81-bb4c-825875eab6b7.png)
 ![image](https://user-images.githubusercontent.com/12972773/194512291-a0d75fbc-f42f-40f6-b18b-3e87475e58a2.png)
